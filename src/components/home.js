@@ -13,12 +13,6 @@ export class Home extends Component {
         return (
             <div>
                 <Blog />
-                <div align="center">
-                    <div id="textInfo">
-                        <h2>Price : $</h2>
-                        <h2>Inflation Rate: %</h2>
-                    </div>
-                </div>
             </div>
         )
     }
