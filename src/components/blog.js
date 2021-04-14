@@ -7,10 +7,10 @@ import MainFeaturedPost from './MainFeaturedPost';
 import FeaturedPost from './FeaturedPost';
 
 const sections = [
-    { title: 'TUTORING', url: '#' },
-    { title: 'CODING BOOTCAMP', url: '#' },
-    { title: 'SAT/ACT PREP', url: '#' },
-    { title: 'ABOUT US', url: '#' },
+    { title: 'TUTORING', url: 'https://www.picktime.com/charmander#booking-content:~:text=tutoring,-In' },
+    { title: 'CODING BOOTCAMP', url: 'https://www.picktime.com/charmander/classes' },
+    { title: 'SAT/ACT PREP', url: 'https://www.picktime.com/charmander#booking-content:~:text=test%20prep' },
+    { title: 'VIOLIN LESSONS', url: 'https://www.picktime.com/charmander#booking-content:~:text=violin' },
     { title: 'CONTACT US', url: '#' },
 ];
 
@@ -21,7 +21,7 @@ const mainFeaturedPost = {
     image: 'https://source.unsplash.com/random',
     imgText: 'main image description',
     linkText: 'SIGN UP NOW',
-    link: 'bootcamp'
+    link: 'https://www.picktime.com/charmander/classes'
 };
 
 const featuredPosts = [
@@ -31,7 +31,7 @@ const featuredPosts = [
             'We do everything from middle school to college. Whether it be Math, Science, or English, we can help enhance your understanding and boost your grades. ',
         image: 'https://source.unsplash.com/random',
         imageText: 'Image Text',
-        link: '/tutoring',
+        link: 'https://www.picktime.com/charmander#booking-content:~:text=tutoring,-In',
         linkText: 'BOOK NOW',
     },
     {
@@ -40,7 +40,7 @@ const featuredPosts = [
             'In depth SAT/ACT prep in order to help students with ther problem areas and boost their scores in order to attend their dream colleges.',
         image: 'https://source.unsplash.com/random',
         imageText: 'Image Text',
-        link: '/sat',
+        link: 'https://www.picktime.com/charmander#booking-content:~:text=test%20prep',
         linkText: 'BOOK NOW',
     },
 ];
