@@ -4,10 +4,6 @@ import Blog from './blog.js'
 
 export class Home extends Component {
 
-    async componentDidMount() {
-        console.log("i'm over here: ")
-    }
-
     render() {
 
         return (
