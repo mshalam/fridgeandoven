@@ -50,7 +50,7 @@ const featuredPosts = [
     {
         title: 'SAT/ACT PREP',
         description:
-            'In Depth SAT/ACT Prep in order to help students with ther problem areas and boost their scores in order to attend their dream colleges.',
+            'In depth SAT/ACT prep in order to help students with ther problem areas and boost their scores in order to attend their dream colleges.',
         image: 'https://source.unsplash.com/random',
         imageText: 'Image Text',
     },
@@ -89,7 +89,7 @@ export default function Blog() {
         <React.Fragment>
             <CssBaseline />
             <Container maxWidth="lg">
-                <Header title="Charcado" sections={sections} />
+                <Header title="Charcado inc." sections={sections} />
                 <main>
                     <MainFeaturedPost post={mainFeaturedPost} />
                     <Grid container spacing={4}>
