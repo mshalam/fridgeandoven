@@ -23,41 +23,34 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const sections = [
-    { title: 'Technology', url: '#' },
-    { title: 'Design', url: '#' },
-    { title: 'Culture', url: '#' },
-    { title: 'Business', url: '#' },
-    { title: 'Politics', url: '#' },
-    { title: 'Opinion', url: '#' },
-    { title: 'Science', url: '#' },
-    { title: 'Health', url: '#' },
-    { title: 'Style', url: '#' },
-    { title: 'Travel', url: '#' },
+    { title: 'TUTORING', url: '#' },
+    { title: 'CODING BOOTCAMP', url: '#' },
+    { title: 'SAT/ACT PREP', url: '#' },
+    { title: 'ABOUT US', url: '#' },
+    { title: 'CONTACT US', url: '#' },
 ];
 
 const mainFeaturedPost = {
-    title: 'Title of a longer featured blog post',
+    title: 'JOIN OUR CODING BOOTCAMP',
     description:
-        "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
+        "LEARN TO DEVELOP CODING PROJECTS FROM APPS TO VIDEO GAMES. ALL IN THIS IN DEPTH CODING BOOTCAMP FOR BEGINNERS.",
     image: 'https://source.unsplash.com/random',
     imgText: 'main image description',
-    linkText: 'Continue reading…',
+    linkText: 'SIGN UP NOW',
 };
 
 const featuredPosts = [
     {
-        title: 'Featured post',
-        date: 'Nov 12',
+        title: 'TUTORING',
         description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
+            'We do everything from middle school to college. Whether it be Math, Science, or English, we can help enhance your understanding and boost your grades. ',
         image: 'https://source.unsplash.com/random',
         imageText: 'Image Text',
     },
     {
-        title: 'Post title',
-        date: 'Nov 11',
+        title: 'SAT/ACT PREP',
         description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
+            'In Depth SAT/ACT Prep in order to help students with ther problem areas and boost their scores in order to attend their dream colleges.',
         image: 'https://source.unsplash.com/random',
         imageText: 'Image Text',
     },
@@ -66,9 +59,9 @@ const featuredPosts = [
 const posts = [post1, post2, post3];
 
 const sidebar = {
-    title: 'About',
+    title: 'About Us',
     description:
-        'Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.',
+        'Our Tutors have been helping students of all ages gain a better understanding of Math, Science, and English  ',
     archives: [
         { title: 'March 2020', url: '#' },
         { title: 'February 2020', url: '#' },
@@ -96,7 +89,7 @@ export default function Blog() {
         <React.Fragment>
             <CssBaseline />
             <Container maxWidth="lg">
-                <Header title="Blog" sections={sections} />
+                <Header title="Charcado" sections={sections} />
                 <main>
                     <MainFeaturedPost post={mainFeaturedPost} />
                     <Grid container spacing={4}>
@@ -104,18 +97,8 @@ export default function Blog() {
                             <FeaturedPost key={post.title} post={post} />
                         ))}
                     </Grid>
-                    <Grid container spacing={5} className={classes.mainGrid}>
-                        <Main title="From the firehose" posts={posts} />
-                        <Sidebar
-                            title={sidebar.title}
-                            description={sidebar.description}
-                            archives={sidebar.archives}
-                            social={sidebar.social}
-                        />
-                    </Grid>
                 </main>
             </Container>
-            <Footer title="Footer" description="Something here to give the footer a purpose!" />
         </React.Fragment>
     );
 }
