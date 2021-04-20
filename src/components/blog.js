@@ -11,7 +11,7 @@ const sections = [
     { title: 'CODING BOOTCAMP', url: 'https://www.picktime.com/charmander/classes' },
     { title: 'SAT/ACT PREP', url: 'https://www.picktime.com/charmander#booking-content:~:text=test%20prep' },
     { title: 'VIOLIN LESSONS', url: 'https://www.picktime.com/charmander#booking-content:~:text=violin' },
-    { title: 'CONTACT US', url: '#' },
+    { title: 'CONTACT US', url: 'https://www.picktime.com/charmander' },
 ];
 
 const mainFeaturedPost = {
