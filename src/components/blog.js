@@ -5,6 +5,7 @@ import Container from '@material-ui/core/Container';
 import Header from './Header';
 import MainFeaturedPost from './MainFeaturedPost';
 import FeaturedPost from './FeaturedPost';
+import mathBanner1 from '../images/mathBanner1.jpg'
 
 const sections = [
     { title: 'TUTORING', url: 'https://www.picktime.com/charmander#booking-content:~:text=tutoring,-In' },

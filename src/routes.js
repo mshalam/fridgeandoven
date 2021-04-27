@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Route, Switch } from 'react-router-dom'
 import { Home } from './components/home.js'
-import { Tutoring } from './components/tutoring.js'
+import { Bootcamp } from './components/bootcamp.js'
 
 /**
  * COMPONENT
@@ -11,7 +11,7 @@ class Routes extends Component {
 
         return (
             <Switch>
-                <Route path="/tutoring" component={Tutoring} />
+                <Route path="/bootcamp" component={Bootcamp} />
                 <Route component={Home} />
             </Switch>
         )
