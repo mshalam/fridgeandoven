@@ -5,6 +5,8 @@ import Header from './Header';
 import MainFeaturedPost from './MainFeaturedPost';
 import BootcampCards from './bootcampCards';
 import Grid from '@material-ui/core/Grid';
+import bootcampBanner from '../images/bootcampBanner.png'
+
 
 const sections = [
     { title: 'TUTORING', url: 'https://www.picktime.com/charmander#booking-content:~:text=tutoring,-In' },
@@ -18,9 +20,9 @@ const mainFeaturedPost = {
     title: 'JOIN OUR CODING BOOTCAMP',
     description:
         "LEARN TO DEVELOP CODING PROJECTS FROM APPS TO VIDEO GAMES. ALL IN THIS IN DEPTH CODING BOOTCAMP FOR BEGINNERS.",
-    image: 'https://source.unsplash.com/random',
+    image: bootcampBanner,
     imgText: 'main image description',
-    linkText: 'SIGN UP NOW',
+    linkText: 'REGISTER NOW',
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSd4MJ3lnEedMmNPptSeCJfdYjXCzoBm4fxVZZEkDSbJDfiBjQ/viewform?usp=sf_link'
 };
 

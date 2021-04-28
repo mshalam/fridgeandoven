@@ -54,7 +54,7 @@ export default function MainFeaturedPost(props) {
                         <Typography variant="h5" color="inherit" paragraph>
                             {post.description}
                         </Typography>
-                        <Button variant="contained" color="primary" href={post.link}>
+                        <Button variant="contained" color="primary" href={post.link} target="_blank">
                             {post.linkText}
                         </Button>
                     </div>
