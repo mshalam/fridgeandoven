@@ -6,7 +6,10 @@ import MainFeaturedPost from './MainFeaturedPost';
 import BootcampCards from './bootcampCards';
 import Grid from '@material-ui/core/Grid';
 import bootcampBanner from '../images/bootcampBanner.png'
-
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
 
 const sections = [
     { title: 'TUTORING', url: 'https://www.picktime.com/charmander#booking-content:~:text=tutoring,-In' },
@@ -44,6 +47,40 @@ export class Bootcamp extends Component {
                         <Grid container spacing={2} justify="space-around" >
                             <BootcampCards />
                         </Grid>
+                        <Card >
+                            <div >
+                                <CardContent>
+                                    <Typography component="h2" variant="h5">
+                                        <b>Private Coding Lessons</b>
+                                    </Typography>
+                                    <Typography variant="body2" color="textSecondary" component="li">
+                                        Individualized attention
+                                    </Typography>
+                                    <Typography variant="body2" color="textSecondary" component="li">
+                                        Custom curriciculum to your specific needs
+                                    </Typography>
+                                    <Typography variant="body2" color="textSecondary" component="li">
+                                        Group rates available upon request
+                                    </Typography>
+                                    <Typography variant="body2" color="textSecondary" component="li">
+                                        $75/hour for in office and online lessons
+                                    </Typography>
+                                    <Typography variant="body2" color="textSecondary" component="li">
+                                        $100/hour for in-home lessons
+                                    </Typography>
+                                    <br />
+                                    <Button
+                                        size="large"
+                                        variant="contained"
+                                        color="primary"
+                                        href='https://docs.google.com/forms/d/e/1FAIpQLSf9Gxhh606RVOllKQFegonhfQptjN7llQbS5pzrrLyFGlpNmQ/viewform?usp=sf_link'
+                                        target="_blank"
+                                    >
+                                        REGISTER NOW
+                                    </Button>
+                                </CardContent>
+                            </div>
+                        </Card>
                     </main>
                 </Container>
             </React.Fragment>

@@ -57,6 +57,18 @@ export default function MainFeaturedPost(props) {
                         <Button variant="contained" color="primary" href={post.link} target="_blank">
                             {post.linkText}
                         </Button>
+                        {post.link2 ?
+                            <Button
+                                variant="contained"
+                                color="secondary"
+                                href={post.link2}
+                                style={{ marginLeft: 10 }}
+                            >
+                                Learn More
+                        </Button>
+                            :
+                            <span />
+                        }
                     </div>
                 </Grid>
             </Grid>

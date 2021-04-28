@@ -10,11 +10,10 @@ import pythonLogo from '../images/pythonLogo.png'
 import cSharpLogo from '../images/cSharpLogo.png'
 
 const useStyles = makeStyles({
-    card1: {
+    card: {
         maxWidth: '48%',
-    },
-    card2: {
-        maxWidth: '48%',
+        marginBottom: 30,
+        minWidth: 250
     },
     media: {
         height: 140,
@@ -26,14 +25,14 @@ export default function BootcampCards() {
 
     return (
         <React.Fragment>
-            <Card className={classes.card1}>
+            <Card className={classes.card}>
                 <CardActionArea>
                     <div align="center">
                         <img src={pythonLogo} />
                     </div>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h2" align="center">
-                            Python
+                            <b>Python</b>
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
                             Starts Monday and Wednesdays June 7th - July 28th
@@ -65,6 +64,7 @@ export default function BootcampCards() {
                     </Typography>
                     <Button
                         size="small"
+                        variant="contained"
                         color="primary"
                         href='https://docs.google.com/forms/d/e/1FAIpQLSd4MJ3lnEedMmNPptSeCJfdYjXCzoBm4fxVZZEkDSbJDfiBjQ/viewform?usp=sf_link'
                         target="_blank"
@@ -73,15 +73,15 @@ export default function BootcampCards() {
                     </Button>
                 </CardActions>
             </Card>
-            <Card className={classes.card2}>
+            <Card className={classes.card}>
                 <CardActionArea>
                     <div align="center">
                         <img src={cSharpLogo} />
                     </div>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h2" align="center">
-                            C#
-                    </Typography>
+                            <b>C#</b>
+                        </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
                             Starts Tusdays and Thrusdays June 8th - July 29th
                         </Typography>
@@ -112,6 +112,7 @@ export default function BootcampCards() {
                     </Typography>
                     <Button
                         size="small"
+                        variant="contained"
                         color="primary"
                         href='https://docs.google.com/forms/d/e/1FAIpQLSd4MJ3lnEedMmNPptSeCJfdYjXCzoBm4fxVZZEkDSbJDfiBjQ/viewform?usp=sf_link'
                         target="_blank"
