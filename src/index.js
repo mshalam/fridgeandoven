@@ -4,7 +4,7 @@ import { HashRouter as Router } from 'react-router-dom'
 import './index.css'
 import App from './App'
 
-const routerBaseName = 'https://mshalam.github.io/charcadoinc/'
+const routerBaseName = '/charcadoinc'
 
 ReactDOM.render(
   <Router basename={routerBaseName}>
