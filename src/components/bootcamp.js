@@ -13,7 +13,7 @@ import Typography from '@material-ui/core/Typography';
 
 const sections = [
     { title: 'TUTORING', url: 'https://www.picktime.com/charmander#booking-content:~:text=tutoring,-In' },
-    { title: 'CODING BOOTCAMP', url: '/#/bootcamp' },
+    { title: 'CODING BOOTCAMP', url: 'https://mshalam.github.io/charcadoinc/#/bootcamp' },
     { title: 'SAT/ACT PREP', url: 'https://www.picktime.com/charmander#booking-content:~:text=test%20prep' },
     { title: 'VIOLIN LESSONS', url: 'https://www.picktime.com/charmander#booking-content:~:text=violin' },
     { title: 'CONTACT US', url: 'https://www.picktime.com/charmander' },
