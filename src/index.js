@@ -4,8 +4,10 @@ import { HashRouter as Router } from 'react-router-dom'
 import './index.css'
 import App from './App'
 
+const routerBaseName = 'https://mshalam.github.io/charcadoinc/'
+
 ReactDOM.render(
-  <Router>
+  <Router basename={routerBaseName}>
     <App />
   </Router>,
   document.getElementById('root')

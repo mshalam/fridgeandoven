@@ -33,7 +33,7 @@ export default function Header(props) {
 
     return (
         <React.Fragment>
-            <Toolbar className={classes.toolbar} component="a" href='https://mshalam.github.io/charcadoinc/#/'>
+            <Toolbar className={classes.toolbar} component="a" href='/#/'>
                 <Typography
                     component="h2"
                     variant="h3"
