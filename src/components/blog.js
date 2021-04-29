@@ -11,7 +11,7 @@ import satBanner from '../images/satBanner.jpg'
 
 const sections = [
     { title: 'TUTORING', url: 'https://www.picktime.com/charmander#booking-content:~:text=tutoring,-In' },
-    { title: 'CODING BOOTCAMP', url: '/#/bootcamp' },
+    { title: 'CODING BOOTCAMP', url: 'https://mshalam.github.io/charcadoinc/#/bootcamp' },
     { title: 'SAT/ACT PREP', url: 'https://www.picktime.com/charmander#booking-content:~:text=test%20prep' },
     { title: 'VIOLIN LESSONS', url: 'https://www.picktime.com/charmander#booking-content:~:text=violin' },
     { title: 'CONTACT US', url: 'https://www.picktime.com/charmander' },
@@ -25,7 +25,7 @@ const mainFeaturedPost = {
     imgText: 'main image description',
     linkText: 'SIGN UP NOW',
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSd4MJ3lnEedMmNPptSeCJfdYjXCzoBm4fxVZZEkDSbJDfiBjQ/viewform?usp=sf_link',
-    link2: '/#/bootcamp'
+    link2: 'https://mshalam.github.io/charcadoinc/#/bootcamp'
 };
 
 const featuredPosts = [
