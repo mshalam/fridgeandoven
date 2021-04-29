@@ -10,6 +10,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import Footer from './Footer';
 
 const sections = [
     { title: 'TUTORING', url: 'https://www.picktime.com/charmander#booking-content:~:text=tutoring,-In' },
@@ -83,6 +84,7 @@ export class Bootcamp extends Component {
                         </Card>
                     </main>
                 </Container>
+                <Footer title="Contact Us" />
             </React.Fragment>
         )
     }
