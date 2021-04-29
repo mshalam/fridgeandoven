@@ -8,6 +8,7 @@ import FeaturedPost from './FeaturedPost';
 import bootcampBanner from '../images/bootcampBanner.png'
 import tutoringBanner from '../images/tutoringBanner.jpg'
 import satBanner from '../images/satBanner.jpg'
+import Footer from './Footer';
 
 const sections = [
     { title: 'TUTORING', url: 'https://www.picktime.com/charmander#booking-content:~:text=tutoring,-In' },
@@ -65,6 +66,7 @@ export default function Blog() {
                     </Grid>
                 </main>
             </Container>
+            <Footer title="Contact Us" />
         </React.Fragment>
     );
 }

@@ -3,20 +3,6 @@ import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
-import Link from '@material-ui/core/Link';
-
-function Copyright() {
-    return (
-        <Typography variant="body2" color="textSecondary" align="center">
-            {'Copyright © '}
-            <Link color="inherit" href="https://material-ui.com/">
-                Your Website
-      </Link>{' '}
-            {new Date().getFullYear()}
-            {'.'}
-        </Typography>
-    );
-}
 
 const useStyles = makeStyles((theme) => ({
     footer: {
@@ -24,22 +10,30 @@ const useStyles = makeStyles((theme) => ({
         // marginTop: theme.spacing(8),
         padding: theme.spacing(6, 0),
     },
+    divider: {
+        borderTop: `1px solid ${theme.palette.divider}`
+    }
 }));
 
 export default function Footer(props) {
     const classes = useStyles();
-    const { description, title } = props;
+    const { title } = props;
 
     return (
         <footer className={classes.footer}>
             <Container maxWidth="lg">
-                <Typography variant="h6" align="center" gutterBottom>
+                <Typography className={classes.divider} variant="h6" align="center" gutterBottom>
                     {title}
                 </Typography>
                 <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-                    {description}
+                    Email: charcadoinc@gmail.com
                 </Typography>
-                <Copyright />
+                <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
+                    Text: (702) 821-6144
+                </Typography>
+                <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
+                    Address: 4848 N. Goldwater Blvd. Scottsdale, AZ, 85251
+                </Typography>
             </Container>
         </footer>
     );
