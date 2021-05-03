@@ -41,9 +41,15 @@ export default function FeaturedPost(props) {
                             <Typography variant="subtitle1" paragraph>
                                 {post.description}
                             </Typography>
-                            <Button variant="contained" color="primary" href={post.link} target="_blank">
-                                {post.linkText}
-                            </Button>
+                            {post.in ?
+                                <Button variant="contained" color="primary" href={post.link}>
+                                    {post.linkText}
+                                </Button>
+                                :
+                                <Button variant="contained" color="primary" href={post.link} target="_blank">
+                                    {post.linkText}
+                                </Button>
+                            }
                         </CardContent>
                     </div>
                     <Hidden xsDown>

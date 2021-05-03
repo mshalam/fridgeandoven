@@ -50,7 +50,7 @@ export default function BootcampCards() {
                             By the end of the course you will learn how to build your own program
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
-                            You will obtain the building blocks to create apps, webistes, artificial intelligence, automation,
+                            You will obtain the building blocks to create apps, websites, artificial intelligence, automation,
                             and more!
                         </Typography>
                     </CardContent>

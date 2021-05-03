@@ -37,7 +37,8 @@ const featuredPosts = [
         image: tutoringBanner,
         imageText: 'Image Text',
         link: 'https://mshalam.github.io/charcadoinc/#/tutoring',
-        linkText: 'BOOK NOW',
+        linkText: 'LEARN MORE',
+        in: true
     },
     {
         title: 'SAT/ACT PREP',
