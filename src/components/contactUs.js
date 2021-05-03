@@ -5,7 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 
 const sections = [
-    { title: 'TUTORING', url: 'https://www.picktime.com/charmander#booking-content:~:text=tutoring,-In' },
+    { title: 'TUTORING', url: 'https://mshalam.github.io/charcadoinc/#/tutoring' },
     { title: 'CODING BOOTCAMP', url: 'https://mshalam.github.io/charcadoinc/#/bootcamp' },
     { title: 'SAT/ACT PREP', url: 'https://www.picktime.com/charmander#booking-content:~:text=test%20prep' },
     { title: 'VIOLIN LESSONS', url: 'https://www.picktime.com/charmander#booking-content:~:text=violin' },

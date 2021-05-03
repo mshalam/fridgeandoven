@@ -11,7 +11,7 @@ import satBanner from '../images/satBanner.jpg'
 import Footer from './Footer';
 
 const sections = [
-    { title: 'TUTORING', url: 'https://www.picktime.com/charmander#booking-content:~:text=tutoring,-In' },
+    { title: 'TUTORING', url: 'https://mshalam.github.io/charcadoinc/#/tutoring' },
     { title: 'CODING BOOTCAMP', url: 'https://mshalam.github.io/charcadoinc/#/bootcamp' },
     { title: 'SAT/ACT PREP', url: 'https://www.picktime.com/charmander#booking-content:~:text=test%20prep' },
     { title: 'VIOLIN LESSONS', url: 'https://www.picktime.com/charmander#booking-content:~:text=violin' },
@@ -36,7 +36,7 @@ const featuredPosts = [
             'We do everything from middle school to college. Whether it be Math, Science, or English, we can help enhance your understanding and boost your grades. ',
         image: tutoringBanner,
         imageText: 'Image Text',
-        link: 'https://www.picktime.com/charmander#booking-content:~:text=tutoring,-In',
+        link: 'https://mshalam.github.io/charcadoinc/#/tutoring',
         linkText: 'BOOK NOW',
     },
     {

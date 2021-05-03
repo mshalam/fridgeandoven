@@ -3,7 +3,7 @@ import { Route, Switch } from 'react-router-dom'
 import { Home } from './components/home.js'
 import { Bootcamp } from './components/bootcamp.js'
 import { ContactUs } from './components/contactUs.js'
-
+import { Tutoring } from './components/tutoring.js'
 
 /**
  * COMPONENT
@@ -13,6 +13,7 @@ class Routes extends Component {
 
         return (
             <Switch>
+                <Route path="/tutoring" component={Tutoring} />
                 <Route path="/bootcamp" component={Bootcamp} />
                 <Route path="/contact" component={ContactUs} />
                 <Route component={Home} />

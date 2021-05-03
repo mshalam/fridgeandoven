@@ -2,13 +2,11 @@ import React, { Component } from 'react'
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 import Header from './Header';
-import MainFeaturedPost from './MainFeaturedPost';
-import BootcampCards from './bootcampCards';
+import TutoringCards from './tutoringCards';
 import Grid from '@material-ui/core/Grid';
 import bootcampBanner from '../images/bootcampBanner.png'
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Footer from './Footer';
 
@@ -30,7 +28,7 @@ const mainFeaturedPost = {
     link: 'https://docs.google.com/forms/d/e/1FAIpQLSd4MJ3lnEedMmNPptSeCJfdYjXCzoBm4fxVZZEkDSbJDfiBjQ/viewform?usp=sf_link'
 };
 
-export class Bootcamp extends Component {
+export class Tutoring extends Component {
 
     async componentDidMount() {
         //console.log("i'm over here: ")
@@ -44,41 +42,22 @@ export class Bootcamp extends Component {
                 <Container maxWidth="lg">
                     <Header title="Charcado inc." sections={sections} />
                     <main>
-                        <MainFeaturedPost post={mainFeaturedPost} />
                         <Grid container spacing={2} justify="space-around" >
-                            <BootcampCards />
+                            <TutoringCards />
                         </Grid>
                         <Card >
                             <div >
                                 <CardContent>
                                     <Typography component="h2" variant="h5">
-                                        <b>Private Coding Lessons</b>
+                                        <b>Request Group Pricing</b>
                                     </Typography>
                                     <Typography variant="body2" color="textSecondary" component="li">
-                                        Individualized attention
-                                    </Typography>
-                                    <Typography variant="body2" color="textSecondary" component="li">
-                                        Custom curriciculum to your specific needs
-                                    </Typography>
-                                    <Typography variant="body2" color="textSecondary" component="li">
-                                        Group rates available upon request
-                                    </Typography>
-                                    <Typography variant="body2" color="textSecondary" component="li">
-                                        $75/hour for in office and online lessons
-                                    </Typography>
-                                    <Typography variant="body2" color="textSecondary" component="li">
-                                        $100/hour for in-home lessons
+                                        Available for In-home, In-office, and Online Tutoring
                                     </Typography>
                                     <br />
-                                    <Button
-                                        size="large"
-                                        variant="contained"
-                                        color="primary"
-                                        href='https://docs.google.com/forms/d/e/1FAIpQLSf9Gxhh606RVOllKQFegonhfQptjN7llQbS5pzrrLyFGlpNmQ/viewform?usp=sf_link'
-                                        target="_blank"
-                                    >
-                                        REGISTER NOW
-                                    </Button>
+                                    <Typography variant="body2" color="textSecondary" component="h1" style={{ color: "black" }}>
+                                        <b>Text (702) 821-6144 to get a quote for your specific situation</b>
+                                    </Typography>
                                 </CardContent>
                             </div>
                         </Card>
@@ -90,4 +69,4 @@ export class Bootcamp extends Component {
     }
 }
 
-export default Bootcamp
+export default Tutoring
