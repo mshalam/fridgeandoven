@@ -56,7 +56,7 @@ export class Tutoring extends Component {
                                     </Typography>
                                     <br />
                                     <Typography variant="body2" color="textSecondary" component="h1" style={{ color: "black" }}>
-                                        <b>Text (702) 821-6144 to get a quote for your specific situation</b>
+                                        <b>Email Charcadoinc@gmail.com to get a quote for your specific situation</b>
                                     </Typography>
                                 </CardContent>
                             </div>

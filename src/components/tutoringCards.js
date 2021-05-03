@@ -12,7 +12,8 @@ const useStyles = makeStyles({
         maxWidth: '48%',
         marginBottom: 30,
         marginTop: 30,
-        minWidth: 250
+        minWidth: 250,
+        width: '100%'
     },
     media: {
         height: 140,
@@ -54,7 +55,7 @@ export default function TutoringCards() {
                 </CardActions>
                 <CardActions>
                     <Typography variant="body2" color="textSecondary" component="h1" style={{ color: "black" }}>
-                        <b>Or text (702) 821-6144 to schedule your session</b>
+                        <b>Or email Charcadoinc@gmail.com to schedule your session</b>
                     </Typography>
                 </CardActions>
             </Card>
@@ -80,7 +81,7 @@ export default function TutoringCards() {
                 </CardActionArea>
                 <CardActions>
                     <Typography variant="body2" color="textSecondary" component="h1" style={{ color: "black" }}>
-                        <b>To schedule your session text (702) 821-6144</b>
+                        <b>Email Charcadoinc@gmail.com to schedule your session</b>
                     </Typography>
                 </CardActions>
             </Card>
