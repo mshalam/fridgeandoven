@@ -54,6 +54,7 @@ export default function Header(props) {
                         variant="body2"
                         href={section.url}
                         className={classes.toolbarLink}
+                        target={section.target}
                     >
                         {section.title}
                     </Link>
