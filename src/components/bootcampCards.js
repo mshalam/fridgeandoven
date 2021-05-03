@@ -83,7 +83,7 @@ export default function BootcampCards() {
                             <b>C#</b>
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
-                            Starts Tusdays and Thrusdays June 8th - July 29th
+                            Starts Tusdays and Thursdays June 8th - July 29th
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
                             There will be 16 two-hour sessions
