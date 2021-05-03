@@ -6,6 +6,8 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import houseIcon from '../images/houseIcon.png'
+import computericon from '../images/computericon.png'
 
 const useStyles = makeStyles({
     card: {
@@ -27,6 +29,9 @@ export default function TutoringCards() {
         <React.Fragment>
             <Card className={classes.card}>
                 <CardActionArea>
+                    <div align="center">
+                        <img src={computericon} />
+                    </div>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h2" align="center">
                             <b>In-office or Online Tutoring</b>
@@ -61,6 +66,9 @@ export default function TutoringCards() {
             </Card>
             <Card className={classes.card}>
                 <CardActionArea>
+                    <div align="center">
+                        <img src={houseIcon} />
+                    </div>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h2" align="center">
                             <b>In-home Tutoring</b>
