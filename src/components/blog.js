@@ -15,7 +15,7 @@ const sections = [
     { title: 'CODING BOOTCAMP', url: 'https://mshalam.github.io/charcadoinc/#/bootcamp' },
     { title: 'SAT/ACT PREP', url: 'https://www.picktime.com/charmander#booking-content:~:text=test%20prep' },
     { title: 'VIOLIN LESSONS', url: 'https://www.picktime.com/charmander#booking-content:~:text=violin' },
-    { title: 'CONTACT US', url: 'https://www.picktime.com/charmander' },
+    { title: 'CONTACT US', url: 'https://mshalam.github.io/charcadoinc/#/contact' },
 ];
 
 const mainFeaturedPost = {
