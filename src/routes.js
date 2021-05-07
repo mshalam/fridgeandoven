@@ -4,6 +4,7 @@ import { Home } from './components/home.js'
 import { Bootcamp } from './components/bootcamp.js'
 import { ContactUs } from './components/contactUs.js'
 import { Tutoring } from './components/tutoring.js'
+import AboutUs from './components/aboutUs.js'
 
 /**
  * COMPONENT
@@ -15,6 +16,7 @@ class Routes extends Component {
             <Switch>
                 <Route path="/tutoring" component={Tutoring} />
                 <Route path="/bootcamp" component={Bootcamp} />
+                <Route path="/about" component={AboutUs} />
                 <Route path="/contact" component={ContactUs} />
                 <Route component={Home} />
             </Switch>
