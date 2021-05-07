@@ -48,6 +48,7 @@ const featuredPosts = [
         imageText: 'Image Text',
         link: 'https://www.picktime.com/charmander#booking-content:~:text=test%20prep',
         linkText: 'BOOK NOW',
+        target: "_true"
     },
 ];
 
