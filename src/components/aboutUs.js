@@ -11,6 +11,7 @@ import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
+import Hidden from '@material-ui/core/Hidden';
 
 const useStyles = makeStyles({
     card: {
@@ -68,7 +69,9 @@ export default function AboutUs() {
                 <main>
                     <CardActionArea>
                         <Card className={classes.card}>
-                            <CardMedia className={classes.cardMedia} image={featuredPosts[0].image} title={featuredPosts[0].imageTitle} />
+                            <Hidden xsDown>
+                                <CardMedia className={classes.cardMedia} image={featuredPosts[0].image} title={featuredPosts[0].imageTitle} />
+                            </Hidden>
                             <div className={classes.cardDetails}>
                                 <CardContent>
                                     <Typography component="h2" variant="h5">
@@ -86,7 +89,9 @@ export default function AboutUs() {
                     </CardActionArea>
                     <CardActionArea>
                         <Card className={classes.card}>
-                            <CardMedia className={classes.cardMedia} image={featuredPosts[1].image} title={featuredPosts[1].imageTitle} />
+                            <Hidden xsDown>
+                                <CardMedia className={classes.cardMedia} image={featuredPosts[1].image} title={featuredPosts[1].imageTitle} />
+                            </ Hidden>
                             <div className={classes.cardDetails}>
                                 <CardContent>
                                     <Typography component="h2" variant="h5">
