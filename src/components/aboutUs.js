@@ -40,7 +40,7 @@ const featuredPosts = [
     {
         title: 'Char',
         description:
-            'Char is a former Paypal Engineer and Hackathon winner. She has been tutoring struggling Computer Science and Math students since she was a student at GCU. While at GCU Char graduated with a degree in Data Science and Software Engineering. She was a member of the Alpha Chi Honors College and graduated Magna Cum Laude with a 4.0 GPA. She has a passoin for learning and loves helping curious minds obtain the building blocks to knowledge.',
+            'Char is a former Paypal Engineer and Hackathon winner. She has been tutoring struggling Computer Science and Math students since she was a student at GCU. While at GCU Char graduated with a degree in Data Science and Software Engineering. She was a member of the Alpha Chi Honors College and graduated Magna Cum Laude with a 4.0 GPA. She has a passion for learning and loves helping curious minds obtain the building blocks to knowledge.',
         image: charPic,
         imageText: 'Image Text',
         link: 'https://mshalam.github.io/charcadoinc/#/tutoring',

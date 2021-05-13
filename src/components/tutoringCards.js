@@ -43,7 +43,7 @@ export default function TutoringCards() {
                             We do everything from middle school to college
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
-                            Subjects available include Math, Science, Physics, and English
+                            Subjects available include Math, Coding, Science, Physics, and English
                         </Typography>
                     </CardContent>
                 </CardActionArea>
@@ -83,7 +83,7 @@ export default function TutoringCards() {
                             We do everything from middle school to college
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
-                            Subjects available include Math, Science, Physics, and English
+                            Subjects available include Math, Coding, Science, Physics, and English
                         </Typography>
                     </CardContent>
                 </CardActionArea>

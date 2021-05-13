@@ -34,7 +34,7 @@ const featuredPosts = [
     {
         title: 'TUTORING',
         description:
-            'We do everything from middle school to college. Whether it be Math, Science, or English, we can help enhance your understanding and boost your grades. ',
+            'We do everything from middle school to college. Whether it be Math, Coding, Science, or English, we can help enhance your understanding and boost your grades. ',
         image: tutoringBanner,
         imageText: 'Image Text',
         link: 'https://mshalam.github.io/charcadoinc/#/tutoring',
