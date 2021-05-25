@@ -59,7 +59,7 @@ export class Bootcamp extends Component {
                                         Individualized attention
                                     </Typography>
                                     <Typography variant="body2" color="textSecondary" component="li">
-                                        Custom curriciculum to your specific needs
+                                        Custom curriculum to your specific needs
                                     </Typography>
                                     <Typography variant="body2" color="textSecondary" component="li">
                                         Group rates available upon request

@@ -31,20 +31,23 @@ export default function BootcampCards() {
                         <img src={pythonLogo} />
                     </div>
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2" align="center">
+                        <Typography gutterBottom variant="h3" component="h2" align="center">
                             <b>Python</b>
                         </Typography>
-                        <Typography variant="body2" color="textSecondary" component="li">
-                            Starts Monday and Wednesdays June 7th - July 28th
+                        <Typography gutterBottom variant="h6" component="h6" align="center">
+                            <b>Learn To Code Apps, Websites And More!</b>
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
-                            There will be 16 two-hour sessions
+                            Starts Saturdays September 4th - November 13th
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
-                            Sessions will be in-person. Either 10:00 am - 12:00 pm or 3:00 pm - 5:00 pm
+                            There will be 11 three-hour sessions
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
-                            The course will cover programming basics
+                            Sessions will be in-person. Either 9:30 am - 12:30 pm or 2:30 pm - 5:30 pm
+                        </Typography>
+                        <Typography variant="body2" color="textSecondary" component="li">
+                            This course is for beginners of all ages and will cover coding basics and understanding the fundamentals of programming
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
                             By the end of the course you will learn how to build your own program
@@ -79,20 +82,23 @@ export default function BootcampCards() {
                         <img src={cSharpLogo} />
                     </div>
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2" align="center">
+                        <Typography gutterBottom variant="h3" component="h2" align="center">
                             <b>C#</b>
                         </Typography>
-                        <Typography variant="body2" color="textSecondary" component="li">
-                            Starts Tusdays and Thursdays June 8th - July 29th
+                        <Typography gutterBottom variant="h6" component="h6" align="center">
+                            <b>Learn To Build 2D {'&'} 3D Games</b>
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
-                            There will be 16 two-hour sessions
+                            Starts Sundays September 5th - November 14th
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
-                            Sessions will be in-person. Either 10:00 am - 12:00 pm or 3:00 pm - 5:00 pm
+                            There will be 11 three-hour sessions
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
-                            The course will cover programming basics
+                            Sessions will be in-person. Either 9:30 am - 12:30 pm or 2:30 pm - 5:30 pm
+                        </Typography>
+                        <Typography variant="body2" color="textSecondary" component="li">
+                            This course is for beginners of all ages and will cover coding basics and understanding the fundamentals of programming
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
                             By the end of the course you will learn how to build your own program
