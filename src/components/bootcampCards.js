@@ -20,8 +20,31 @@ const useStyles = makeStyles({
     },
 });
 
-export default function BootcampCards() {
+export default function BootcampCards(props) {
     const classes = useStyles();
+    const { session } = props;
+
+    let pythonDates = 'Starts Saturdays September 4th - November 13th'
+    let cSharpDates = 'Starts Sundays September 5th - November 14th'
+
+    switch (session) {
+        case 'fall':
+            pythonDates = 'Starts Saturdays September 4th - November 13th'
+            cSharpDates = 'Starts Sundays September 5th - November 14th'
+            break;
+        case 'spring':
+            pythonDates = 'Starts Saturdays February 5th - April 16th'
+            cSharpDates = 'Starts Sundays February 6th - April 17th'
+            break;
+        case 'summer':
+            pythonDates = 'Starts Saturdays June 4th - August 13th'
+            cSharpDates = 'Starts Sundays June 5th - August 14th'
+            break;
+        default:
+            pythonDates = 'Starts Saturdays September 4th - November 13th'
+            cSharpDates = 'Starts Sundays September 5th - November 14th'
+    }
+
 
     return (
         <React.Fragment>
@@ -38,7 +61,7 @@ export default function BootcampCards() {
                             <b>Learn To Code Apps, Websites And More!</b>
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
-                            Starts Saturdays September 4th - November 13th
+                            {pythonDates}
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
                             There will be 11 three-hour sessions
@@ -89,7 +112,7 @@ export default function BootcampCards() {
                             <b>Learn To Build 2D {'&'} 3D Games</b>
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
-                            Starts Sundays September 5th - November 14th
+                            {cSharpDates}
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="li">
                             There will be 11 three-hour sessions
