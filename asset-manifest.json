@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/fridgeandoven/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/fridgeandoven/static/js/main.0c53c1c6.chunk.js",
+    "main.js.map": "/fridgeandoven/static/js/main.0c53c1c6.chunk.js.map",
+    "runtime-main.js": "/fridgeandoven/static/js/runtime-main.df8eb6d4.js",
+    "runtime-main.js.map": "/fridgeandoven/static/js/runtime-main.df8eb6d4.js.map",
+    "static/js/2.f43a91cf.chunk.js": "/fridgeandoven/static/js/2.f43a91cf.chunk.js",
+    "static/js/2.f43a91cf.chunk.js.map": "/fridgeandoven/static/js/2.f43a91cf.chunk.js.map",
+    "index.html": "/fridgeandoven/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/fridgeandoven/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.f43a91cf.chunk.js.LICENSE.txt": "/fridgeandoven/static/js/2.f43a91cf.chunk.js.LICENSE.txt",
+    "static/media/bootcampBanner.2173f66c.png": "/fridgeandoven/static/media/bootcampBanner.2173f66c.png",
+    "static/media/cSharpLogo.c59db449.png": "/fridgeandoven/static/media/cSharpLogo.c59db449.png",
+    "static/media/char.43ab3947.jpeg": "/fridgeandoven/static/media/char.43ab3947.jpeg",
+    "static/media/maurice.62d362ac.jpeg": "/fridgeandoven/static/media/maurice.62d362ac.jpeg",
+    "static/media/pythonLogo.ada9c4b8.png": "/fridgeandoven/static/media/pythonLogo.ada9c4b8.png",
+    "static/media/satBanner.ecbf87f4.jpg": "/fridgeandoven/static/media/satBanner.ecbf87f4.jpg",
+    "static/media/tutoringBanner.1486d9b8.jpg": "/fridgeandoven/static/media/tutoringBanner.1486d9b8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df8eb6d4.js",
+    "static/js/2.f43a91cf.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.0c53c1c6.chunk.js"
+  ]
+}
