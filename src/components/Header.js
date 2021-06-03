@@ -9,7 +9,8 @@ const useStyles = makeStyles((theme) => ({
     toolbar: {
         borderBottom: `1px solid ${theme.palette.divider}`,
         color: 'inherit',
-        textDecoration: 'none'
+        textDecoration: 'none',
+        marginBottom: theme.spacing(2),
     },
     'toolbar:visited': {
         color: 'inherit',
@@ -45,21 +46,7 @@ export default function Header(props) {
                     {title}
                 </Typography>
             </Toolbar>
-            <Toolbar component="nav" variant="dense" className={classes.toolbarSecondary}>
-                {sections.map((section) => (
-                    <Link
-                        color="inherit"
-                        noWrap
-                        key={section.title}
-                        variant="body2"
-                        href={section.url}
-                        className={classes.toolbarLink}
-                        target={section.target}
-                    >
-                        {section.title}
-                    </Link>
-                ))}
-            </Toolbar>
+
         </React.Fragment>
     );
 }

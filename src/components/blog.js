@@ -4,23 +4,18 @@ import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import Header from './Header';
 import MainFeaturedPost from './MainFeaturedPost';
-import FeaturedPost from './FeaturedPost';
+import Products from './products';
 import bootcampBanner from '../images/bootcampBanner.png'
 import tutoringBanner from '../images/tutoringBanner.jpg'
 import satBanner from '../images/satBanner.jpg'
 import Footer from './Footer';
 
 const sections = [
-    { title: 'TUTORING', url: 'https://mshalam.github.io/charcadoinc/#/tutoring' },
-    { title: 'CODING BOOTCAMP', url: 'https://mshalam.github.io/charcadoinc/#/bootcamp' },
-    { title: 'SAT/ACT PREP', url: 'https://www.picktime.com/charmander#booking-content:~:text=test%20prep', target: "_blank" },
-    { title: 'VIOLIN LESSONS', url: 'https://www.picktime.com/charmander#booking-content:~:text=violin', target: "_blank" },
-    { title: 'ABOUT US', url: 'https://mshalam.github.io/charcadoinc/#/about' },
-    { title: 'CONTACT US', url: 'https://mshalam.github.io/charcadoinc/#/contact' },
+
 ];
 
 const mainFeaturedPost = {
-    title: 'JOIN OUR CODING BOOTCAMP',
+    title: 'Try our tasty pastries!',
     description:
         "LEARN TO DEVELOP CODING PROJECTS FROM APPS TO VIDEO GAMES. ALL IN THIS IN DEPTH CODING BOOTCAMP FOR BEGINNERS.",
     image: bootcampBanner,
@@ -59,14 +54,10 @@ export default function Blog() {
         <React.Fragment>
             <CssBaseline />
             <Container maxWidth="lg">
-                <Header title="Charcado inc." sections={sections} />
+                <Header title="Fridge & Oven" sections={sections} />
                 <main>
                     <MainFeaturedPost post={mainFeaturedPost} />
-                    <Grid container spacing={4}>
-                        {featuredPosts.map((post) => (
-                            <FeaturedPost key={post.title} post={post} />
-                        ))}
-                    </Grid>
+                    <Products />
                 </main>
             </Container>
             <Footer title="Contact Us" />
