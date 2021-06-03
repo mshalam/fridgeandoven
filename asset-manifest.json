@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/fridgeandoven/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/fridgeandoven/static/js/main.8e81f9d4.chunk.js",
-    "main.js.map": "/fridgeandoven/static/js/main.8e81f9d4.chunk.js.map",
+    "main.js": "/fridgeandoven/static/js/main.74515895.chunk.js",
+    "main.js.map": "/fridgeandoven/static/js/main.74515895.chunk.js.map",
     "runtime-main.js": "/fridgeandoven/static/js/runtime-main.56a3d499.js",
     "runtime-main.js.map": "/fridgeandoven/static/js/runtime-main.56a3d499.js.map",
-    "static/js/2.1bab55e8.chunk.js": "/fridgeandoven/static/js/2.1bab55e8.chunk.js",
-    "static/js/2.1bab55e8.chunk.js.map": "/fridgeandoven/static/js/2.1bab55e8.chunk.js.map",
+    "static/js/2.8f14295c.chunk.js": "/fridgeandoven/static/js/2.8f14295c.chunk.js",
+    "static/js/2.8f14295c.chunk.js.map": "/fridgeandoven/static/js/2.8f14295c.chunk.js.map",
     "index.html": "/fridgeandoven/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/fridgeandoven/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.1bab55e8.chunk.js.LICENSE.txt": "/fridgeandoven/static/js/2.1bab55e8.chunk.js.LICENSE.txt",
-    "static/media/bootcampBanner.2173f66c.png": "/fridgeandoven/static/media/bootcampBanner.2173f66c.png",
+    "static/js/2.8f14295c.chunk.js.LICENSE.txt": "/fridgeandoven/static/js/2.8f14295c.chunk.js.LICENSE.txt",
+    "static/media/bootcampBanner.0d816fcd.png": "/fridgeandoven/static/media/bootcampBanner.0d816fcd.png",
     "static/media/cSharpLogo.c59db449.png": "/fridgeandoven/static/media/cSharpLogo.c59db449.png",
     "static/media/char.43ab3947.jpeg": "/fridgeandoven/static/media/char.43ab3947.jpeg",
     "static/media/maurice.62d362ac.jpeg": "/fridgeandoven/static/media/maurice.62d362ac.jpeg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.56a3d499.js",
-    "static/js/2.1bab55e8.chunk.js",
+    "static/js/2.8f14295c.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.8e81f9d4.chunk.js"
+    "static/js/main.74515895.chunk.js"
   ]
 }
